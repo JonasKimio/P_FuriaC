@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #9afcff;
+}
+main{
+    flex: 1 0 auto;
+}
+.hero {
+    margin: 100px;
+    height: 300px;
+    background: url('/furia-chat/Img/Furia.png') no-repeat center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.cta-button {
+    background-color: #9afcff;
+    color: #000;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #7ed6df;
+}
+
+.about {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    flex-shrink: 0;
+}

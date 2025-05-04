@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURIA chat</title>
+    <link rel="stylesheet" href="Styles/chat.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="Img/Furia.png" alt="Logo FURIA" /></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="https://www.furia.gg">Loja</a></li>
+                    <li><a href="">Chat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="match-container">
+        <!-- Time 1 - CT -->
+        <div id="time1" class="team team-ct">
+            <h2 id="time1-nome"></h2>
+            <p id="time1-placar"></p>
+            <p id="time1-mapa"></p>
+            <p id="time1-lado"></p>
+            <p id="time1-kda"></p>
+            <p id="time1-economia"></p>
+            <ul id="time1-jogadores"></ul>
+        </div>
+        <!-- Chat -->
+        <div id="chat" class="chat-box">
+            <h2>Chat</h2>
+            <input type="text" id="chatNickname" placeholder="Digite seu nickname">
+            <div id="chat-mensagens" class="chat-messages"></div>
+            <form class="chat-form" id="chatForm">
+                <input type="text" id="chatInput" placeholder="Digite sua mensagem..." required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <!-- Time 2 - T -->
+        <div id="time2" class="team team-t">
+            <h2 id="time2-nome"></h2>
+            <p id="time2-placar"></p>
+            <p id="time2-mapa"></p>
+            <p id="time2-lado"></p>
+            <p id="time2-kda"></p>
+            <p id="time2-economia"></p>
+            <ul id="time2-jogadores"></ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 FURIA Fan Page. Todos os direitos reservados. Desenvolvido por: Jonas Kimio Isiki</p>
+    </footer>
+    <script src="Backend/scripts.js"></script>
+</body>
+</html>

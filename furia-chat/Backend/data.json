@@ -1,0 +1,33 @@
+{
+    "time1": {
+      "nome": "FURIA",
+      "mapa": "Mirage",
+      "lado": "CT",
+      "placarMapa": 2,
+      "placarJogo": 12,
+      "economiaTotal": 17000,
+      "jogadores": [
+        { "nome": "Jogador1", "k": 10, "d": 5, "a": 3, "vida": 100, "eco": 3000, "armas": ["M4A1", "P250", "Faca"], "utilitarios": ["Flash", "Smoke"], "protecao": "Capacete", "kit": "Kit Defuse" },
+        { "nome": "Jogador2", "k": 8, "d": 7, "a": 2, "vida": 100, "eco": 2500, "armas": ["M4A4", "USP", "Faca"], "utilitarios": ["Flash", "Molotov"], "protecao": "Colete", "kit": "Nada" },
+        { "nome": "Jogador3", "k": 8, "d": 7, "a": 2, "vida": 100, "eco": 2500, "armas": ["M4A4", "USP", "Faca"], "utilitarios": ["Flash", "Molotov"], "protecao": "Colete", "kit": "Nada" },
+        { "nome": "Jogador4", "k": 8, "d": 7, "a": 2, "vida": 100, "eco": 2500, "armas": ["M4A4", "USP", "Faca"], "utilitarios": ["Flash", "Molotov"], "protecao": "Colete", "kit": "Nada" },
+        { "nome": "Jogador5", "k": 8, "d": 7, "a": 2, "vida": 100, "eco": 2500, "armas": ["M4A4", "USP", "Faca"], "utilitarios": ["Flash", "Molotov"], "protecao": "Colete", "kit": "Nada" }
+      ]
+    },
+    "time2": {
+      "nome": "Time Adversário",
+      "mapa": "Mirage",
+      "lado": "TR",
+      "placarMapa": 1,
+      "placarJogo": 9,
+      "economiaTotal": 14500,
+      "jogadores": [
+        { "nome": "Jogador1", "k": 9, "d": 6, "a": 1, "vida": 100, "eco": 2900, "armas": ["AK-47", "Deagle", "Faca"], "utilitarios": ["Smoke", "Grenade"], "protecao": "Colete", "kit": "Bomba" },
+        { "nome": "Jogador2", "k": 9, "d": 6, "a": 1, "vida": 100, "eco": 2900, "armas": ["AK-47", "Deagle", "Faca"], "utilitarios": ["Smoke", "Grenade"], "protecao": "Colete", "kit": "Nada" },
+        { "nome": "Jogador3", "k": 9, "d": 6, "a": 1, "vida": 100, "eco": 2900, "armas": ["AK-47", "Deagle", "Faca"], "utilitarios": ["Smoke", "Grenade"], "protecao": "Colete", "kit": "Nada" },
+        { "nome": "Jogador4", "k": 9, "d": 6, "a": 1, "vida": 100, "eco": 2900, "armas": ["AK-47", "Deagle", "Faca"], "utilitarios": ["Smoke", "Grenade"], "protecao": "Colete", "kit": "Nada" },
+        { "nome": "Jogador5", "k": 9, "d": 6, "a": 1, "vida": 100, "eco": 2900, "armas": ["AK-47", "Deagle", "Faca"], "utilitarios": ["Smoke", "Grenade"], "protecao": "Colete", "kit": "Nada" }
+      ]
+    }
+  }
+  
