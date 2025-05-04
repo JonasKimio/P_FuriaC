@@ -17,18 +17,20 @@ Oferecer uma experiência imersiva para os torcedores da FURIA, permitindo acomp
 
 ## 📁 Estrutura de Pastas
 
-/furia-chat
-├── /Backend
+```
+📁furia-chat
+├── 📁Backend
 │ ├── data.json
 │ └── scripts.js
-├── /Img
+├── 📁Img
 │ ├── furia-hero.png
 │ └── Furia.png
-├── /Styles
+├── 📁Styles
 │ ├── chat.css
 │ └── styles.css
 ├── chat.html
 └── index.html
+```
 
 ## 🔧 Arquivos principais
 
